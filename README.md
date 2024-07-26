@@ -79,5 +79,5 @@ The dataset includes various features that can be used to predict the burned are
 - **Prediction and Analysis**
 
 ## References
-- [Zindi Challenge Page](https://zindi.africa/competitions/wildfire-prediction-challenge)
+- [Zindi Challenge Page](https://zindi.africa/competitions/predict-fire-extent)
 - [Relevant Papers and Articles]
