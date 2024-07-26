@@ -72,8 +72,8 @@ The dataset includes various features that can be used to predict the burned are
 
 ## Task Assignment
 - **Data Preprocessing** 
-- **EDA**: 
-- **Feature Engineering**: 
+- **EDA**
+- **Feature Engineering**
 - **Model Development**
 - **Model Evaluation**
 - **Prediction and Analysis**
