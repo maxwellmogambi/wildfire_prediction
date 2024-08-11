@@ -1,5 +1,5 @@
 ## Documentation Guide
-A README markdown file is required
+A README markdown file is required. [Refer to here](https://zindi.africa/learn/documentation-guideline)
 
 It should cover:
 
