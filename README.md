@@ -22,6 +22,7 @@ This project was developed and executed in Google Colab, utilizing its built-in 
 ## Accessing Data
 
 The data files should be placed in your Google Drive in the following path:
+
 `/content/drive/MyDrive/fire-extent-prediction-challenge-120240716-19716-ztmgh3/`
 
 ## Running the Code
@@ -33,19 +34,24 @@ The data files should be placed in your Google Drive in the following path:
 
 ## Project Results
 
-Our team placed third in the competition, achieving a private score of 0.01821023 and a public score of 0.019308177. We explored multiple models and feature engineering techniques to optimize the prediction accuracy.
+Our team placed third in the competition, achieving a private score of **0.01821023** and a public score of **0.019308177**. We explored multiple models and feature engineering techniques to optimize the prediction accuracy.
 
 
 ## Team Members
 
 [Maxwell Mogambi]()
+
 [Ethel Uchindami]()
+
 [Yousif Shaheen]()
+
 [Shamso Osman]()
 
 ## Acknowledgments
 
-We acknowledge the organizers of the Wildfire Prediction Challenge for providing the data and the platform to participate. Special thanks to my team members for their contributions to this project.
+We acknowledge the organizers of the Wildfire Prediction Challenge for providing the data and the platform to participate, [Zindi](https://zindi.africa/). 
+
+Special thanks to my team members for their contributions to this project.
 
 ## License
 
