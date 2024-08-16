@@ -1,83 +1,52 @@
-# Wildfire Prediction Challenge - Project Guide
+# Wildfire Prediction Challenge
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Objectives](#objectives)
-3. [Data Overview](#data-overview)
-4. [Project Workflow](#project-workflow)
-    - [Data Preprocessing](#data-preprocessing)
-    - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-    - [Feature Engineering](#feature-engineering)
-    - [Model Development](#model-development)
-    - [Model Evaluation](#model-evaluation)
-    - [Prediction and Analysis](#prediction-and-analysis)
-5. [Task Assignment](#task-assignment)
-6. [References](#references)
+**Can you predict the burned area of wildfires in Zimbabwe?**
 
-## Introduction
-Each year, thousands of fires blaze across the African continent. These fires can be natural, intentional, or wildfires, each contributing to CO2 emissions and affecting air quality. Understanding the dynamics that influence the occurrence of these fires can help in predicting their future behavior under varying climatic conditions.
+## Project Overview
 
-## Objectives
-The main objective of this challenge is to:
-- Develop a machine-learning model capable of predicting the burned area in different locations from 2014 to 2016.
+This project is a submission for the Wildfire Prediction Challenge, where the goal is to create a machine-learning model capable of predicting the burned area in different locations across Zimbabwe from 2014 to 2016. The challenge leverages historical data, including climate variables, land cover, population density, and more.
 
-## Data Overview
-The dataset includes various features that can be used to predict the burned area. Below is a brief description of the dataset:
+## Project Structure
 
-| Variable         | Description                                                                                     |
-|------------------|-------------------------------------------------------------------------------------------------|
-| ID               | Unique identifier for each area and date (format: [area ID]_yyyy-mm-dd)                         |
-| area             | Area ID                                                                                         |
-| date             | Date of the data aggregation                                                                    |
-| lat              | Latitude of the center of the area                                                              |
-| lon              | Longitude of the center of the area                                                             |
-| burn_area        | Percentage of the area burned                                                                   |
-| climate_*        | Various climate-related features such as evapotranspiration, precipitation, soil moisture, etc. |
-| elevation        | Land elevation                                                                                  |
-| landcover_*      | Various land cover types                                                                        |
-| precipitation    | Merged microwave/IR precipitation estimate                                                      |
+- `data/`: Contains the dataset files
+- `notebooks/`: Contains the primary Jupyter notebook where the entire data preprocessing, feature engineering, model training, and evaluation were conducted
+- `requirements.txt`: List of required Python libraries used in the project
 
-## Project Workflow
 
-### Data Preprocessing
-- Handle missing values
-- Convert data types if necessary
-- Normalize/standardize numerical features
-- Encode categorical features
+## Environment
 
-### Exploratory Data Analysis (EDA)
-- Visualize the distribution of the target variable (burn_area)
-- Identify and visualize correlations between features
-- Analyze trends and patterns in the data
+This project was developed and executed in Google Colab, utilizing its built-in support for Python and easy integration with Google Drive. To run the notebook:
+1. Upload the notebook to Google Colab
+2. Mount your Google Drive and adjust the file paths accordingly
 
-### Feature Engineering
-- Create new features based on existing data
-- Feature selection to identify the most relevant features
-- Dimensionality reduction techniques (if necessary)
+## Accessing Data
 
-### Model Development
-- Split data into training and testing sets
-- Experiment with various machine learning models (e.g., Linear Regression, Random Forest, Gradient Boosting)
-- Hyperparameter tuning using cross-validation
+The data files should be placed in your Google Drive in the following path:
+`/content/drive/MyDrive/fire-extent-prediction-challenge-120240716-19716-ztmgh3/`
 
-### Model Evaluation
-- Evaluate model performance using metrics such as RMSE, MAE, and R²
-- Validate model using the test set
-- Perform error analysis to identify areas for improvement
+## Running the Code
 
-### Prediction and Analysis
-- Make predictions on new data
-- Analyze and interpret the results
-- Visualize the predictions and compare them with actual data
+1. Open in Google Colab: Upload the `wildfire_prediction.ipynb` notebook to Google Colab.
+2. Set Up Google Drive: Mount Google Drive using the provided code.
+3. Install Required Libraries: Use the requirements.txt file to install the necessary libraries.
+4. Run the Notebook: Execute the cells in the notebook to reproduce the analysis and predictions.
 
-## Task Assignment
-- **Data Preprocessing** 
-- **EDA**
-- **Feature Engineering**
-- **Model Development**
-- **Model Evaluation**
-- **Prediction and Analysis**
+## Project Results
 
-## References
-- [Zindi Challenge Page](https://zindi.africa/competitions/predict-fire-extent)
-- [Relevant Papers and Articles]
+Our team placed third in the competition, achieving a private score of 0.01821023 and a public score of 0.019308177. We explored multiple models and feature engineering techniques to optimize the prediction accuracy.
+
+
+## Team Members
+
+[Maxwell Mogambi]()
+[Ethel Uchindami]()
+[Yousif Shaheen]()
+[Shamso Osman]()
+
+## Acknowledgments
+
+We acknowledge the organizers of the Wildfire Prediction Challenge for providing the data and the platform to participate. Special thanks to my team members for their contributions to this project.
+
+## License
+
+This project is licensed under the CC-BY SA 4.0 license, allowing for sharing and adaptation with proper attribution.
